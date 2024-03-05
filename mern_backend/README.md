@@ -1,7 +1,6 @@
 ﻿
 # MERN E-COMMERCE BACKEND
 
-Hi! My name is **Abhishek Nahar Singh**, I have created this tutorial to teach MERN Stack for free on YouTube.
 
 # Prerequisite
 Must have basic knowledge of **Node**, **React**, **Express**, **MongoDB** 
@@ -14,6 +13,7 @@ Must have basic knowledge of **Node**, **React**, **Express**, **MongoDB**
 ## Env Variables
 
 Make Sure to Create a  .env file in root directory and add appropriate variables in order to use the app.
+Don't forget to make uploads dir outside src folder.
 
 **Essential Variables**
 PORT= `4000 or any`
