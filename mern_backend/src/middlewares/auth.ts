@@ -9,7 +9,7 @@ export const adminOnly = TryCatch(async (req, res, next) => {
   if (!id) return next(new ErrorHandler("Please Login First", 401));
 
   const user = await User.findById(id);
-  if (!user) return next(new ErrorHandler("Enter Your ID", 401));
+  if (!user) return next(new ErrorHandler("Please Enter Your Correct ID", 401));
   if (user.role !== "admin")
     return next(new ErrorHandler("Only Admin can access", 403));
 
